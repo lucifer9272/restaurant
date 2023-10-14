@@ -1,0 +1,35 @@
+{
+  "scripts": {
+    "start-server": "json-server --watch db.json --port 3000"
+  },
+  "restaurant": [
+    {
+      "id": 1,
+      "name": "Pizza Hut",
+      "address": "Peshawar",
+      "rating": "4.5",
+      "email": "pizzahut@test.com"
+    },
+    {
+      "id": 2,
+      "name": "McDonald's",
+      "address": "Islamabad",
+      "rating": "5.5",
+      "email": "mc@test.com"
+    },
+    {
+      "id": 3,
+      "name": "AlBaik",
+      "address": "Rawalpindi",
+      "rating": "3.5",
+      "email": "albaik@test.com"
+    },
+    {
+      "id": 4,
+      "name": "Cheesious",
+      "address": "Peshawar",
+      "rating": "2.5",
+      "email": "cheesious@test.com"
+    }
+  ]
+}
