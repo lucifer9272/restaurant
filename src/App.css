@@ -6,6 +6,26 @@
   height: 40vmin;
   pointer-events: none;
 }
+spam{
+    display:inline-block;
+    background-color:bisque;
+    padding:10px;
+    margin:5px;
+}
+.list-wrapper{
+    border:1px solid #000000;
+    margin:auto;
+    width:500px;
+    margin-top:10px
+}
+.search-row{
+    max-width: 100px;
+    background-color:bisque;
+    padding: 3px;
+   
+    margin: auto;
+   margin-top: 8px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
