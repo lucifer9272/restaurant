@@ -1,0 +1,48 @@
+{
+  "scripts": {
+    "start-server": "json-server --watch db.json --port 3000"
+  },
+  "login": [
+    {
+      "name": "ali",
+      "password": "123"
+    }
+  ],
+  "restaurant": [
+    {
+      "name": "Chief Grills",
+      "email": "chiefgrills@test.com",
+      "address": "Peshawar",
+      "rating": "4.6",
+      "id": 2
+    },
+    {
+      "name": "Khyber Charsi Tikka",
+      "email": "charsi@test.com",
+      "address": "Peshawar",
+      "rating": "5.5",
+      "id": 3
+    },
+    {
+      "name": "HowDy",
+      "email": "howdy@test.com",
+      "address": "Islamabad",
+      "rating": "5.5",
+      "id": 4
+    },
+    {
+      "name": "Tigers Temple",
+      "email": "tiger@test.com",
+      "address": "Islamabad",
+      "rating": "3.2",
+      "id": 5
+    },
+    {
+      "name": "Mei Kong",
+      "email": "meikong@test.com",
+      "address": "Rawalpindi",
+      "rating": "2.2",
+      "id": 6
+    }
+  ]
+}
